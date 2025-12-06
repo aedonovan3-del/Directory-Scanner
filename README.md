@@ -1,7 +1,7 @@
 # Directory-Scanner
-Directory scanner that identifies potential candiates for workflow automation by producing a csv file of files within the directory and uses a very rudimentary perceptron calculation and assigned numerical values to files extension type to create a ranked list of files that could potentially benefit from workflow automation
+Directory scanner that identifies potential candiates for workflow automation by producing a csv report listing files within the directory and uses a very rudimentary perceptron calculation and assigned numerical values to each different file extension type to create a ranked list of files that could potentially benefit from workflow automation.
 
-This package is extremely rudimentary with the goal of being as minimal as possible while creating scaffolding for a more robust scoring sytem in the future
+This package is extremely rudimentary with the goal of being as minimal as possible while creating scaffolding for a more robust scoring sytem in the future. This project is mostly to help me personally identify priority projects by identifying files like access databases and very large excel files that have been modified recently so I can investigate workflow automation.
 
 Contains:
 
