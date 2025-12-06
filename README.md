@@ -11,6 +11,8 @@ Contains:
 4. report : writes the ranked file metadata with score to a report labelled automation_candidates.csv to the directory where the modules are stored
 5. run : runs the modules, to implement, include the relevent path in the module to test (py run.py)
 
-Examples of how this may be used is to treate the report as a suggetive priority queue for automation projects.
+Examples of how this may be used is to treate the report as a suggetive priority queue for automation projects. 
+
+The perceptron weighting and the prioirty mapping should serve to rank the file metadata in the report such that large Access databases or large Excel workbooks may appear near the top, while smaller files, files of a certain extension type, or files that have not been modified for a long time will rank low on the list. 
 
 
