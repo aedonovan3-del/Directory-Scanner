@@ -11,4 +11,6 @@ Contains:
 4. report : writes the ranked file metadata with score to a report labelled automation_candidates.csv to the directory where the modules are stored
 5. run : runs the modules, to implement, include the relevent path in the module to test (py run.py)
 
+Examples of how this may be used is to treate the report as a suggetive priority queue for automation projects.
+
 
